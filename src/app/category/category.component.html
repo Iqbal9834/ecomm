@@ -1,0 +1,9 @@
+<div class="item">
+
+  <div class="card" *ngFor="let category of categories$ | async" (click)="selectCategory(category)">
+    <div class="pos1">
+      <div class="abv abv1">{{ category }}</div>
+    </div>
+    <!-- <h2>"Italian Spicy cuisine"</h2> -->
+  </div>
+</div>
